@@ -1,5 +1,13 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap");
 @import "variables";
 
 @import "layout";
 @import "navbar";
+
+$theme-colors: (
+  "primary": #0d6d5b,
+  "danger": #ff4136
+);
+
+

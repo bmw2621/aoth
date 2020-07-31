@@ -36,3 +36,52 @@ a.link-no-style {
     }
   }
 }
+
+header{
+  height: 33vh;
+  background: url('../images/ddbg.webp') center bottom;
+  background-size: cover;
+  text-align: center;
+
+  &>div{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      &>h1>a{
+          font-family: 'Grenze Gotisch';
+          font-size:4rem;
+          color: white;
+          text-shadow:
+            -3px -3px 0 #000,  
+             3px -3px 0 #000,
+             -3px 3px 0 #000,
+              3px 3px 0 #000;
+      }
+  }
+}
+
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  &>button{
+      background-color: $color-primary;
+      border: none;
+      &:hover,&:focus{
+          background-color: $color-primary;
+          box-shadow: 0 0 10px black;
+      }
+      &:not(:disabled):not(.disabled):active,
+      &:not(:disabled):not(.disabled).active {
+        background-color: $color-secondary;
+        box-shadow: 0 0 10px black;
+    
+        &:focus {
+          background-color: $color-secondary;
+          box-shadow: 0 0 10px black;
+        }
+      }
+  }
+}
+

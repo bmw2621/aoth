@@ -11,12 +11,11 @@ const IndexPage = () => (
       <Row>
         <Col>
           <p>
-            This is a Gatsby Starter that I frequently use to get jump started
-            on quick website builds. It includes the following packages:
+            Campaign Journal for the Richmond Hill Dungeoneers.
           </p>
         </Col>
       </Row>
-      <Row className="justify-content-center my-3">
+      {/* <Row className="justify-content-center my-3">
         <Col md="6">
           <ListGroup>
             <ListGroup.Item
@@ -62,7 +61,7 @@ const IndexPage = () => (
             refer to the pages linked in the list above.
           </p>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   </Layout>
 )
